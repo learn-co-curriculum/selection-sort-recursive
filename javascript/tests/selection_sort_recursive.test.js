@@ -1,4 +1,4 @@
-const selectionSortRecursive = require('../../solutions/selection_sort_recursive');
+const selectionSortRecursive = require('../selection_sort_recursive');
 
 test('can handle an empty array', () => {
   expect(selectionSortRecursive([])).toEqual([]);
