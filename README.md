@@ -1,17 +1,25 @@
 # Day 5: Recursive Selection Sort
 
-**Fork and then clone me!**
+## Learning Goals
 
-Sort an Array of numbers using selection sort. The selection sort algorithm sorts an array by repeatedly finding the minimum element (lowest value) in the input Array, and then putting it at the correct location in the sorted Array.
+- Solve algorithm problems using recursion
 
-Once you're done solving the problem, calculate the average run time and compare it to the average run time for the iterative version.
+## Instructions
 
-```
+Sort an array of numbers using selection sort. The selection sort algorithm
+sorts an array by repeatedly finding the minimum element (lowest value) in the
+input array, and then putting it at the correct location in the sorted array.
+
+Once you're done solving the problem, calculate the average run time and compare
+it to the average run time for the iterative version.
+
+```txt
 Input: [3, -1, 5, 2]
 Output: [-1, 2, 3, 5]
 ```
 
-You may wish to convert your iterative solution to a recursive one. We've included our old solutions in Ruby and JavaScript below:
+You may wish to convert your iterative solution to a recursive one. We've
+included our old solutions in Ruby and JavaScript below:
 
 ```ruby
 def selection_sort(arr)
@@ -44,9 +52,10 @@ function selectionSort(arr) {
 }
 ```
 
-Use the language of your choosing. We've included starter files for some languages where you can pseudocode, explain your solution and code.
+Use the language of your choosing. We've included starter files for some
+languages where you can pseudocode, explain your solution and code.
 
-## Before you start coding:
+## Before you start coding
 
 1. Rewrite the problem in your own words
 2. Validate that you understand the problem
