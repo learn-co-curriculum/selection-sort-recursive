@@ -19,7 +19,7 @@ Output: [-1, 2, 3, 5]
 ```
 
 You may wish to convert your iterative solution to a recursive one. We've
-included our old solutions in Ruby and JavaScript below:
+included our old solutions in Ruby, JavaScript, and Python below:
 
 ```ruby
 def selection_sort(arr)
@@ -50,6 +50,19 @@ function selectionSort(arr) {
 
   return sorted;
 }
+```
+
+```python
+def selection_sort(list):
+    sorted_list = []
+
+    while len(list) > 0:
+        min_element = min(list)
+
+        sorted_list.append(min_element)
+        list.remove(min_element)
+
+    return sorted_list
 ```
 
 Use the language of your choosing. We've included starter files for some
