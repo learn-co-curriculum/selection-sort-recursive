@@ -53,7 +53,7 @@ function selectionSort(arr) {
 ```
 
 ```python
-def selection_sort(list):
+def selection_sort_out_of_place(list):
     sorted_list = []
 
     while len(list) > 0:
@@ -63,6 +63,24 @@ def selection_sort(list):
         list.remove(min_element)
 
     return sorted_list
+```
+
+```python
+def selection_sort_in_place(list):
+      for i in range(len(list)):
+        min_element = list[i]
+        min_element_index = i
+
+        for j in range(i + 1, len(list)):
+            if list[j] < min_element:
+                min_element = list[j]
+                min_element_index = j
+
+        temp_element_0 = list[i]
+        list[i] = min_element
+        list[min_element_index] = temp_element_0
+
+    return list
 ```
 
 Use the language of your choosing. We've included starter files for some
